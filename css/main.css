@@ -1,95 +1,97 @@
-
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: byekan;
-  src: url('../fonts/poppins/BYEKAN.TTF');
+  src: url("../fonts/poppins/BYEKAN.TTF");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf");
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #57b846;
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
 }
 
 p {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
 }
-
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 textarea {
@@ -97,45 +99,77 @@ textarea {
   border: none;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: transparent !important;
 }
 
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; }
-input:focus::-moz-placeholder { color:transparent; }
-input:focus:-ms-input-placeholder { color:transparent; }
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
-textarea:focus::-webkit-input-placeholder { color:transparent; }
-textarea:focus:-moz-placeholder { color:transparent; }
-textarea:focus::-moz-placeholder { color:transparent; }
-textarea:focus:-ms-input-placeholder { color:transparent; }
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
-input::-webkit-input-placeholder { color: #999999; }
-input:-moz-placeholder { color: #999999; }
-input::-moz-placeholder { color: #999999; }
-input:-ms-input-placeholder { color: #999999; }
+input::-webkit-input-placeholder {
+  color: #999999;
+}
+input:-moz-placeholder {
+  color: #999999;
+}
+input::-moz-placeholder {
+  color: #999999;
+}
+input:-ms-input-placeholder {
+  color: #999999;
+}
 
-textarea::-webkit-input-placeholder { color: #999999; }
-textarea:-moz-placeholder { color: #999999; }
-textarea::-moz-placeholder { color: #999999; }
-textarea:-ms-input-placeholder { color: #999999; }
+textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+textarea:-moz-placeholder {
+  color: #999999;
+}
+textarea::-moz-placeholder {
+  color: #999999;
+}
+textarea:-ms-input-placeholder {
+  color: #999999;
+}
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
@@ -153,6 +187,15 @@ iframe {
   color: #666666;
 }
 
+.text-center {
+  padding-top: 25px;
+  margin: auto;
+}
+
+.kara-site{
+  color: black;
+  text-decoration: underline;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
@@ -163,7 +206,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,7 +226,7 @@ iframe {
 
 .wrap-login100 {
   width: 960px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
   overflow: hidden;
 
@@ -194,11 +237,27 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  padding: 177px 130px 40px 95px;
+}
+
+.wrap-login100 .text-center {
+  flex-shrink: 0;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
+.logo-top{
+  display: flex;
+  position: relative;
+  bottom: 60px;
+}
+
+.logo-top img{
+  width: 130px;
+  margin: auto;
+}
+  
+
 .login100-pic {
   width: 316px;
 }
@@ -207,11 +266,16 @@ iframe {
   max-width: 100%;
 }
 
-
 /*------------------------------------------------------------------
 [  ]*/
 .login100-form {
-  width: 290px;
+  /* margin-bottom: 70px; */
+  padding-bottom: 120px;
+  width: 320px;
+  /* border: 2px solid rgb(230, 224, 224) ; */
+  border-radius: 5%;
+  background-color:#f5f5f5 ;
+  
 }
 
 .login100-form-title {
@@ -223,9 +287,8 @@ iframe {
   font-weight: bold;
   width: 100%;
   display: block;
-  padding-bottom: 54px;
+  margin-bottom: 54px;
 }
-
 
 /*---------------------------------------------*/
 .wrap-input100 {
@@ -236,6 +299,7 @@ iframe {
 }
 
 .input100 {
+  
   font-family: byekan;
   font-size: 15px;
   line-height: 1.5;
@@ -243,13 +307,14 @@ iframe {
   direction: rtl;
 
   display: block;
-  width: 100%;
+  width: 90%;
   background: #e6e6e6;
   height: 50px;
+  border: 2px solid #d3d3d3;
   border-radius: 25px;
   padding: 0 30px 0 68px;
+  
 }
-
 
 /*------------------------------------------------------------------
 [ Focus ]*/
@@ -263,7 +328,6 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87,184,70, 0.8);
 }
 
 .input100:focus + .focus-input100 {
@@ -336,7 +400,7 @@ iframe {
   color: #fff;
   text-transform: uppercase;
 
-  width: 100%;
+  width: 99%;
   height: 50px;
   border-radius: 25px;
   background: #57b846;
@@ -348,6 +412,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 0 25px;
+  margin-top: 50px;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -363,8 +428,6 @@ iframe {
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
-
-
 
 @media (max-width: 992px) {
   .wrap-login100 {
@@ -399,7 +462,6 @@ iframe {
     padding: 100px 15px 33px 15px;
   }
 }
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
