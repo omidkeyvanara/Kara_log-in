@@ -12,20 +12,20 @@
   font-weight: bold;
 }
 
-@font-face {
+/* @font-face {
   font-family: Poppins-Bold;
   src: url("../fonts/poppins/Poppins-Bold.ttf");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: Poppins-Medium;
   src: url("../fonts/poppins/Poppins-Medium.ttf");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: Montserrat-Bold;
   src: url("../fonts/montserrat/Montserrat-Bold.ttf");
-}
+} */
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -74,19 +74,19 @@ h6 {
   margin: 0px;
 }
 
-p {
+/* p {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
   margin: 0px;
-}
+} */
 
-ul,
+/* ul,
 li {
   margin: 0px;
   list-style-type: none;
-}
+} */
 
 /*---------------------------------------------*/
 input {
@@ -192,7 +192,7 @@ iframe {
   margin: auto;
 }
 
-.kara-site{
+.kara-site {
   color: black;
   text-decoration: underline;
 }
@@ -221,7 +221,7 @@ iframe {
   background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
   background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
   background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #2e7057, #222d63);
+  background: linear-gradient(-135deg, #36c58e, #222d63);
 }
 
 .wrap-login100 {
@@ -237,29 +237,27 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 177px 130px 40px 95px;
-}
-
-.wrap-login100 .text-center {
-  flex-shrink: 0;
+  padding: 120px 130px 40px 95px;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
-.logo-top{
+.logo-top {
   display: flex;
   position: relative;
   bottom: 60px;
 }
 
-.logo-top img{
+.logo-top img {
   width: 130px;
   margin: auto;
 }
-  
 
 .login100-pic {
-  width: 316px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login100-pic img {
@@ -269,13 +267,11 @@ iframe {
 /*------------------------------------------------------------------
 [  ]*/
 .login100-form {
-  /* margin-bottom: 70px; */
   padding-bottom: 120px;
   width: 320px;
-  /* border: 2px solid rgb(230, 224, 224) ; */
   border-radius: 5%;
-  background-color:#f5f5f5 ;
-  
+  background-color: #f5f5f5;
+  margin-right: -20px;
 }
 
 .login100-form-title {
@@ -296,10 +292,11 @@ iframe {
   width: 100%;
   z-index: 1;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .input100 {
-  
   font-family: byekan;
   font-size: 15px;
   line-height: 1.5;
@@ -307,19 +304,19 @@ iframe {
   direction: rtl;
 
   display: block;
-  width: 90%;
+  width: 99%;
   background: #e6e6e6;
   height: 50px;
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e4e4e4;
   border-radius: 25px;
   padding: 0 30px 0 68px;
-  
 }
 
 /*------------------------------------------------------------------
 [ Focus ]*/
 .focus-input100 {
   display: block;
+  /* background-color: #57b846; */
   position: absolute;
   border-radius: 25px;
   bottom: 0;
@@ -424,8 +421,6 @@ iframe {
   background: #333333;
 }
 
-
-
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
@@ -475,7 +470,7 @@ iframe {
   position: absolute;
   max-width: 70%;
   background-color: white;
-  border: 1px solid #c80000;
+  border: 1px solid #ce5555;
   border-radius: 13px;
   padding: 4px 25px 4px 10px;
   top: 50%;
@@ -488,7 +483,7 @@ iframe {
   pointer-events: none;
 
   font-family: Poppins-Medium;
-  color: #c80000;
+  color: #ca3e3e;
   font-size: 13px;
   line-height: 1.4;
   text-align: left;
@@ -507,7 +502,7 @@ iframe {
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: #c80000;
+  color: #cc3232;
   font-size: 15px;
   top: 50%;
   -webkit-transform: translateY(-50%);
