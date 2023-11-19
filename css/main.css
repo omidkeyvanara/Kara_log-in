@@ -183,8 +183,10 @@ iframe {
 .txt2 {
   font-family: byekan;
   font-size: 13px;
+  /* margin-top: 25px; */
   line-height: 1.5;
   color: #666666;
+  margin-bottom: 0;
 }
 
 .text-center {
@@ -193,8 +195,10 @@ iframe {
 }
 
 .kara-site {
+  padding-bottom: -19px;
   color: black;
   text-decoration: underline;
+
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -217,11 +221,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #36c58e, #222d63);
+  /* background-color: rgb(41, 66, 139); */
+  /* background: #9053c7; */
+  /* background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0); */
+  /* background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0); */
+  background: linear-gradient(-135deg, #404aa0, #195e86);
 }
 
 .wrap-login100 {
@@ -254,7 +259,10 @@ iframe {
 }
 
 .login100-pic {
-  width: 380px;
+  /* background-color: #f3f3f3; */
+  /* border: 1px solid #d8d7d7; */
+  border-radius: 2%;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,7 +278,7 @@ iframe {
   padding-bottom: 120px;
   width: 320px;
   border-radius: 5%;
-  background-color: #f5f5f5;
+  background-color: #f3f3f3;
   margin-right: -20px;
 }
 
