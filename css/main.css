@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url("../fonts/poppins/Poppins-Regular.ttf");
+  src: url("../fonts/font-awesome-4.7.0/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: byekan;
-  src: url("../fonts/poppins/BYEKAN.TTF");
+  src: url("../fonts/font-awesome-4.7.0/fonts/BYEKAN.TTF");
   font-weight: bold;
 }
 
@@ -195,7 +195,6 @@ iframe {
 }
 
 .kara-site {
-  padding-bottom: -19px;
   color: black;
   text-decoration: underline;
 
@@ -211,7 +210,8 @@ iframe {
 
 .container-login100 {
   width: 100%;
-  min-height: 100vh;
+  /* background-color: #6d3c3c; */
+  /* min-height: 100vh; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -279,13 +279,13 @@ iframe {
 .login100-form {
   padding-bottom: 120px;
   width: 320px;
-  border-radius: 0 5% 5% 0 ;
+  border-radius:5%  ;
   background-color: #f3f3f3;
 }
 
 .login100-form-title {
   font-family: byekan;
-  font-size: 30px;
+  font-size: 26px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
